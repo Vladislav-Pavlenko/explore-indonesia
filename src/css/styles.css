@@ -1,0 +1,168 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  color: #fff;
+  background-color: #fff;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  padding: 28px;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  z-index: 10;
+}
+.header-nav {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+.header-nav-logo {
+}
+.header-nav-logo-img {
+  height: 59px;
+}
+.header-nav-list {
+  display: flex;
+  gap: 62px;
+}
+.header-nav-list-item {
+}
+.header-nav-list-item-link {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: 113px;
+  gap: 40px;
+}
+.header-list-item {
+}
+.header-list-item-btn {
+  background-color: transparent;
+
+  border: none;
+}
+.header-list-item-svg {
+}
+
+.hero {
+  position: relative;
+  padding: 266px 0 0;
+  background-image: url(../img/hero/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 1.08;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 277px;
+  margin-bottom: 21px;
+}
+.hero-btn {
+  background-color: #dd2242;
+  padding: 22px 60px;
+  border-radius: 211px;
+  color: white;
+  margin-left: 277px;
+  border: none;
+  margin-bottom: 241px;
+  cursor: pointer;
+}
+.hero-section {
+  display: flex;
+  justify-content: flex-end;
+
+  max-width: 1225px;
+  margin-left: auto;
+  align-items: end;
+}
+.hero-section-list {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 31px 128px 39px 79px;
+  gap: 88px;
+}
+.hero-section-list-item {
+  width: 210px;
+}
+.hero-section-list-item-num {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #dd2242;
+  margin-bottom: 14px;
+}
+.hero-section-list-item-title {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.56;
+  color: white;
+  margin-bottom: 4px;
+}
+.hero-section-list-item-p {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 156%;
+  letter-spacing: 0.03em;
+  color: #939393;
+}
+.hero-section-img {
+  width: 397px;
+  height: 224px;
+}
